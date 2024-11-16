@@ -1,0 +1,20 @@
+{
+  "name": "cli-bootstrap",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.28.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@std/assert": "npm:@jsr/std__assert",
+    "@std/fmt": "npm:@jsr/std__fmt",
+    "@std/ulid": "npm:@jsr/std__ulid",
+    "drizzle-orm": "^0.36.3",
+    "neverthrow": "^8.1.1",
+    "pino": "^9.5.0",
+    "zod": "^3.23.8"
+  }
+}
