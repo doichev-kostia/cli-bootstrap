@@ -10,7 +10,3 @@ export function createId(prefix: keyof typeof prefixes): string {
 	return fmt.Sprintf("%s_%s", prefixes[prefix], ulid());
 }
 
-export function createTrodoId(prefix: keyof typeof prefixes): string {
-	return fmt.Sprintf("trodo_%s_%s", prefixes[prefix], ulid());
-}
-
